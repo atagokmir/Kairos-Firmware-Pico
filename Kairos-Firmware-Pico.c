@@ -2,6 +2,7 @@
 #include <string.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
+#include "hardware/sync.h"
 
 #define MZ80_PIN 15
 #define DEBOUNCE_US 200000
